@@ -12,13 +12,14 @@
                     </div>
                     <router-link tag="div" to="/movie/search" class="search_entry">
                         <i class="iconfont icon-sousuo"></i>
-                    </router-link>
+                    </router-link name="hello">
                 </div>
                 <keep-alive>
                     <router-view />
                 </keep-alive>
             </div>
         <TabBar/>
+        <router-view name="detail" />
     </div>
 </template>
 
