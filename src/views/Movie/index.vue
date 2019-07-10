@@ -12,7 +12,7 @@
                     </div>
                     <router-link tag="div" to="/movie/search" class="search_entry">
                         <i class="iconfont icon-sousuo"></i>
-                    </router-link name="hello">
+                    </router-link>
                 </div>
                 <keep-alive>
                     <router-view />
@@ -50,7 +50,7 @@ export default {
                         content:nm,
                         cancel:'取消',
                         ok:'切换定位',
-                        handleOK(){
+                        handleOk(){
                             //改本地存储
                             window.localStorage.setItem('nowNm',nm);
                             window.localStorage.setItem('nowId',id);

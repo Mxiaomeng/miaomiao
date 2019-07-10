@@ -2,7 +2,7 @@
     <div id="main">
         <Header title="我的电影"/>
             <div id="content">
-                <Login />
+                <router-view></router-view>
             </div>
         <TabBar/>
     </div>
